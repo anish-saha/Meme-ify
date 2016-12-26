@@ -1,0 +1,18 @@
+{
+  "name": "Memeify",
+  "version": "1.0",
+  "description": "Replaces all images with a random meme.",
+  "manifest_version": 2,
+
+  "permissions": ["tabs"],
+  "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "js": ["background.js", "replacer.js"],
+      "persistent": false
+  }],
+
+  "browser_action": {
+    "default_title": "Memeify",
+    "default_icon": "pepe.png"
+  }
+}

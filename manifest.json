@@ -7,7 +7,7 @@
   "permissions": ["tabs"],
   "content_scripts": [{
       "matches": ["<all_urls>"],
-      "js": ["background.js", "replacer.js"],
+      "js": ["background.js"],
       "persistent": false
   }],
 

@@ -2,7 +2,7 @@
 Chrome extension that replaces all images on your current webpage with a random meme. <br>
 WIP: feature to choose relevant images based on webpage content.
 
-========================
+<hr>
 
 Screenshots:
 
